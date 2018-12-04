@@ -17,3 +17,7 @@ mtnet：my Tcp Network library
 1.单线程：accept + event处理在同一个线程中
 
 2.多线程：accept + event处理在不同线程中，其中event处理线程可以有不只一个；accept针对新连接会按照循环分配的方式指定event线程，以后可以给event线程指定优先级，按照优先级来分配。
+
+说明记录：
+#include <functional>		function和bind
+#include <memory>			shared_ptr
