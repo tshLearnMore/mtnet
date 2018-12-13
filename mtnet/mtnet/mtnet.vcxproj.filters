@@ -13,10 +13,19 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
+    <Filter Include="base\baseTest">
+      <UniqueIdentifier>{a0ef3222-8f88-4fa6-84b2-fc19fcf53860}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\base\Thread.cc">
       <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\baseTest\atomic_test.cc">
+      <Filter>base\baseTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\baseTest\thread_test.cc">
+      <Filter>base\baseTest</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

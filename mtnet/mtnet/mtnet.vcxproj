@@ -74,6 +74,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\base\baseTest\atomic_test.cc" />
+    <ClCompile Include="..\..\base\baseTest\thread_test.cc" />
     <ClCompile Include="..\..\base\Thread.cc" />
   </ItemGroup>
   <ItemGroup>
