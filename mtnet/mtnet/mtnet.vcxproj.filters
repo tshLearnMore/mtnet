@@ -24,6 +24,9 @@
     <ClCompile Include="..\..\base\baseTest\atomic_test.cc">
       <Filter>base\baseTest</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\base\baseTest\mutex_test.cc">
+      <Filter>base\baseTest</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\base\baseTest\thread_test.cc">
       <Filter>base\baseTest</Filter>
     </ClCompile>
@@ -38,10 +41,16 @@
     <ClInclude Include="..\..\base\Uncopyable.h">
       <Filter>base</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\base\Mutex.h">
+      <Filter>base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\README.md">
       <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\base\baseTest\makefile">
+      <Filter>base\baseTest</Filter>
     </None>
   </ItemGroup>
 </Project>

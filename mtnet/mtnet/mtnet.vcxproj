@@ -75,15 +75,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\base\baseTest\atomic_test.cc" />
+    <ClCompile Include="..\..\base\baseTest\mutex_test.cc" />
     <ClCompile Include="..\..\base\baseTest\thread_test.cc" />
     <ClCompile Include="..\..\base\Thread.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Atomic.h" />
+    <ClInclude Include="..\..\base\Mutex.h" />
     <ClInclude Include="..\..\base\Thread.h" />
     <ClInclude Include="..\..\base\Uncopyable.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\base\baseTest\makefile" />
     <None Include="..\..\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
