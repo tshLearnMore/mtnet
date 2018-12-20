@@ -30,6 +30,9 @@
     <ClCompile Include="..\..\base\baseTest\thread_test.cc">
       <Filter>base\baseTest</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\base\baseTest\condition_test.cc">
+      <Filter>base\baseTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Thread.h">
@@ -42,6 +45,9 @@
       <Filter>base</Filter>
     </ClInclude>
     <ClInclude Include="..\..\base\Mutex.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\Condition.h">
       <Filter>base</Filter>
     </ClInclude>
   </ItemGroup>

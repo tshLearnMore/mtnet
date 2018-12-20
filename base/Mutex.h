@@ -28,6 +28,10 @@ namespace mtnet
 		{
 			pthread_mutex_unlock(&mutex_);
 		}
+		pthread_mutex_t* getMutex()
+		{
+			return &mutex_;
+		}
 	protected:
 	private:
 		pthread_mutex_t mutex_;
