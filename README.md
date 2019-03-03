@@ -9,8 +9,10 @@ mtnet：my Tcp Network library
 
 2. 不支持udp，只支持tcp
 
-3. 网络库的基本模式是：非阻塞IO + 每个事件循环(loop)对应一个线程
-
+3. 网络库的基本模式是：one (event) loop per thread + thread pool
+   - event loop（即IO loop）用作IO复用，配合非阻塞IO和定时器 [one (event) loop per thread]
+   - thread pool用来做计算，具体可以是任务队列或者生产者消费者队列 [thread pool]
+   - 可能还有个别特殊任务的线程，例如logging(日志)线程
 
 线程模型：
 
@@ -18,7 +20,7 @@ mtnet：my Tcp Network library
 
 2.多线程：accept + event处理在不同线程中，其中event处理线程可以有不只一个；accept针对新连接会按照循环分配的方式指定event线程，以后可以给event线程指定优先级，按照优先级来分配。
 
-说明记录：
+头文件说明记录：
 
 ```
 #include <functional>		function和bind
