@@ -8,6 +8,7 @@ mutex:
 	g++ -g -o mutextest mutex_test.cc  ../Thread.cc  -std=c++11 -pthread
 conditiontest:
 	g++ -g -o conditiontest condition_test.cc  ../Thread.cc  -std=c++11 -pthread
-
+timestamp:
+	g++ -g -o timestamp timestamp_test.cc  ../Timestamp.cc -std=c++11
 clean:
-	rm threadtest atomic mutextest conditiontest
+	rm threadtest atomic mutextest conditiontest timestamp

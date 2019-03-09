@@ -78,13 +78,16 @@
     <ClCompile Include="..\..\base\baseTest\condition_test.cc" />
     <ClCompile Include="..\..\base\baseTest\mutex_test.cc" />
     <ClCompile Include="..\..\base\baseTest\thread_test.cc" />
+    <ClCompile Include="..\..\base\baseTest\timestamp_test.cc" />
     <ClCompile Include="..\..\base\Thread.cc" />
+    <ClCompile Include="..\..\base\Timestamp.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Atomic.h" />
     <ClInclude Include="..\..\base\Condition.h" />
     <ClInclude Include="..\..\base\Mutex.h" />
     <ClInclude Include="..\..\base\Thread.h" />
+    <ClInclude Include="..\..\base\Timestamp.h" />
     <ClInclude Include="..\..\base\Uncopyable.h" />
   </ItemGroup>
   <ItemGroup>
