@@ -36,7 +36,7 @@ mtnet：my Tcp Network library
 |03.Uncopyable     |    Done 类不可使用拷贝构造函数和赋值构造函数 |
 |04.Mutex          |    Done 互斥访问控制 |
 |05.Condition      |    Done 条件变量封装 |
-|06.Logging        |    日志操作封装 |
+|06.Logging        |    Done 日志操作封装（暂时比较简单后期要单独起线程+2个缓冲处理） |
 |07.Timestamp      |    Done 时间戳操作封装 |
 
 ##mtnet
