@@ -39,6 +39,9 @@
     <ClCompile Include="..\..\base\baseTest\timestamp_test.cc">
       <Filter>base\baseTest</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\base\baseTest\logging_test.cc">
+      <Filter>base\baseTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Thread.h">
@@ -57,6 +60,9 @@
       <Filter>base</Filter>
     </ClInclude>
     <ClInclude Include="..\..\base\Timestamp.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\base\Logging.h">
       <Filter>base</Filter>
     </ClInclude>
   </ItemGroup>

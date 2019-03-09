@@ -76,6 +76,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\base\baseTest\atomic_test.cc" />
     <ClCompile Include="..\..\base\baseTest\condition_test.cc" />
+    <ClCompile Include="..\..\base\baseTest\logging_test.cc" />
     <ClCompile Include="..\..\base\baseTest\mutex_test.cc" />
     <ClCompile Include="..\..\base\baseTest\thread_test.cc" />
     <ClCompile Include="..\..\base\baseTest\timestamp_test.cc" />
@@ -85,6 +86,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\base\Atomic.h" />
     <ClInclude Include="..\..\base\Condition.h" />
+    <ClInclude Include="..\..\base\Logging.h" />
     <ClInclude Include="..\..\base\Mutex.h" />
     <ClInclude Include="..\..\base\Thread.h" />
     <ClInclude Include="..\..\base\Timestamp.h" />
