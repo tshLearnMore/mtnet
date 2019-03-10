@@ -45,8 +45,8 @@ mtnet：my Tcp Network library
 |01.EventLoop       |  Done   | 主事件循环 |
 |02.Channel         |  Done   | fd通道管理 |
 |03.Poller          |  Done   | ePoll封装 |
-|04.EventLoopThread |  Done   | 单独启动线程运行EventLoop |
-|06.Acceptor        |  Done   | server fd操作封装 |
+|04.Timer           |  Done   | 单独启动线程运行EventLoop |
+|05.EventLoopThread |  Done   | server fd操作封装 |
 |06.Acceptor        |  none   | server fd操作封装 |
 |07.NetAddress      |  none   | 网络地址操作封装 |
 |08.Socket          |  none   | socket操作封装 |
