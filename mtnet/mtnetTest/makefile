@@ -3,9 +3,13 @@ LIB_SRC =                    \
 	../EventLoop.cc          \
 	../Poller.cc             \
 	../TimerQueue.cc         \
-	../EventLoopThread.cc    
+	../EventLoopThread.cc    \
+	../InetAddress.cc       \
+	../Socket.cc            \
+	../SocketsOps.cc        \
+	../Acceptor.cc          
 
-BINARIES = test1 test2
+BINARIES = test1 test2 test3
 
 all: $(BINARIES)
 
@@ -18,6 +22,7 @@ $(BINARIES):
 
 test1:    test1.cc
 test2:    test2.cc
+test3:    test3.cc
 
 clean:
 	rm -f $(BINARIES) core

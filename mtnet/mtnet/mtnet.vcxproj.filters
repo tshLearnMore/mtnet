@@ -66,6 +66,27 @@
     <ClCompile Include="..\..\base\Logging.cc">
       <Filter>base</Filter>
     </ClCompile>
+    <ClCompile Include="..\EventLoopThread.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mtnetTest\test2.cc">
+      <Filter>mtnet\mtnetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Acceptor.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Socket.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InetAddress.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SocketsOps.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mtnetTest\test3.cc">
+      <Filter>mtnet\mtnetTest</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Thread.h">
@@ -108,6 +129,21 @@
       <Filter>mtnet</Filter>
     </ClInclude>
     <ClInclude Include="..\Poller.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EventLoopThread.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Acceptor.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Socket.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InetAddress.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SocketsOps.h">
       <Filter>mtnet</Filter>
     </ClInclude>
   </ItemGroup>
