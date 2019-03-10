@@ -9,14 +9,14 @@
 
 namespace mtnet
 {
-	class Mutex : public Uncopyable
+	class MutexLock : public Uncopyable
 	{
 	public:
-		Mutex()
+		MutexLock()
 		{
 			pthread_mutex_init(&mutex_, NULL);
 		}
-		~Mutex()
+		~MutexLock()
 		{
 			pthread_mutex_destroy(&mutex_);
 		}
@@ -40,7 +40,7 @@ namespace mtnet
 	class MutexLockGuard : public Uncopyable
 	{
 	public:
-		explicit MutexLockGuard(Mutex& mutex)
+		explicit MutexLockGuard(MutexLock& mutex)
 			:mutex_(mutex)
 		{
 			mutex_.lock();
@@ -51,7 +51,7 @@ namespace mtnet
 		}
 	protected:
 	private:
-		Mutex& mutex_;
+		MutexLock& mutex_;
 	};
 }
 

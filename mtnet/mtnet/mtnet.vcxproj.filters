@@ -16,6 +16,12 @@
     <Filter Include="base\baseTest">
       <UniqueIdentifier>{a0ef3222-8f88-4fa6-84b2-fc19fcf53860}</UniqueIdentifier>
     </Filter>
+    <Filter Include="mtnet">
+      <UniqueIdentifier>{965d8a2d-d5c1-433a-868b-34a14e9031a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mtnet\mtnetTest">
+      <UniqueIdentifier>{631c9572-9294-4f4b-97e8-e7a574391201}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\base\Thread.cc">
@@ -42,6 +48,24 @@
     <ClCompile Include="..\..\base\baseTest\logging_test.cc">
       <Filter>base\baseTest</Filter>
     </ClCompile>
+    <ClCompile Include="..\EventLoop.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TimerQueue.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Channel.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Poller.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mtnetTest\test1.cc">
+      <Filter>mtnet\mtnetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\base\Logging.cc">
+      <Filter>base</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Thread.h">
@@ -65,6 +89,27 @@
     <ClInclude Include="..\..\base\Logging.h">
       <Filter>base</Filter>
     </ClInclude>
+    <ClInclude Include="..\EventLoop.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Callbacks.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Timer.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TimerId.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TimerQueue.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Channel.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Poller.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\README.md">
@@ -72,6 +117,9 @@
     </None>
     <None Include="..\..\base\baseTest\makefile">
       <Filter>base\baseTest</Filter>
+    </None>
+    <None Include="..\mtnetTest\makefile">
+      <Filter>mtnet\mtnetTest</Filter>
     </None>
   </ItemGroup>
 </Project>

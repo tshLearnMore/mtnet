@@ -29,34 +29,36 @@ mtnet：my Tcp Network library
 
 #TODO:
 ##base
-|名称|完成情况|
-| :------ | :------ |
-|01.Atomic         |    Done 原子操作 |
-|02.thread         |    Done 线程操作封装 |
-|03.Uncopyable     |    Done 类不可使用拷贝构造函数和赋值构造函数 |
-|04.Mutex          |    Done 互斥访问控制 |
-|05.Condition      |    Done 条件变量封装 |
-|06.Logging        |    Done 日志操作封装（暂时比较简单后期要单独起线程+2个缓冲处理） |
-|07.Timestamp      |    Done 时间戳操作封装 |
+|名称|完成情况|内容|
+| :------ | :------ | :------|
+|01.Atomic         |    Done | 原子操作 |
+|02.thread         |    Done | 线程操作封装 |
+|03.Uncopyable     |    Done | 类不可使用拷贝构造函数和赋值构造函数 |
+|04.Mutex          |    Done | 互斥访问控制 |
+|05.Condition      |    Done | 条件变量封装 |
+|06.Logging        |    Done | 日志操作封装（暂时比较简单后期要单独起线程+2个缓冲处理） |
+|07.Timestamp      |    Done | 时间戳操作封装 |
 
 ##mtnet
-|名称|完成情况|
-| :------ | :------ |
-|01.EventLoop       |     主事件循环 |
-|02.Channel         |     fd通道管理 |
-|03.Poller          |     ePoll封装 |
-|04.timer           |     time操作封装（主要是定时器会用到） |
-|05.Acceptor        |     server fd操作封装 |
-|06.NetAddress      |     网络地址操作封装 |
-|07.Socket          |     socket操作封装 |
-|08.TcpConnect      |     connection过程封装 |
-|09.TCPServer       |     server fd封装 |
-|10.TCPClient       |     client fd封装 |
-|11.Buffer          |     应用层Buffer |
-|12.EventLoopThreadPool | 多线程EventLoop封装 |
+|名称|完成情况|内容|
+| :------ | :------ | :------|
+|01.EventLoop       |  Done   | 主事件循环 |
+|02.Channel         |  Done   | fd通道管理 |
+|03.Poller          |  Done   | ePoll封装 |
+|04.timer           |  Done   | time操作封装（主要是定时器会用到） |
+|05.Acceptor        |  none   | server fd操作封装 |
+|06.NetAddress      |  none   | 网络地址操作封装 |
+|07.Socket          |  none   | socket操作封装 |
+|08.TcpConnect      |  none   | connection过程封装 |
+|09.TCPServer       |  none   | server fd封装 |
+|10.TCPClient       |  none   | client fd封装 |
+|11.Buffer          |  none   | 应用层Buffer |
+|12.EventLoopThreadPool |none | 多线程EventLoop封装 |
 
 
 
 
+
+-----------
 
 

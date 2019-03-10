@@ -80,8 +80,14 @@
     <ClCompile Include="..\..\base\baseTest\mutex_test.cc" />
     <ClCompile Include="..\..\base\baseTest\thread_test.cc" />
     <ClCompile Include="..\..\base\baseTest\timestamp_test.cc" />
+    <ClCompile Include="..\..\base\Logging.cc" />
     <ClCompile Include="..\..\base\Thread.cc" />
     <ClCompile Include="..\..\base\Timestamp.cc" />
+    <ClCompile Include="..\Channel.cc" />
+    <ClCompile Include="..\EventLoop.cc" />
+    <ClCompile Include="..\mtnetTest\test1.cc" />
+    <ClCompile Include="..\Poller.cc" />
+    <ClCompile Include="..\TimerQueue.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Atomic.h" />
@@ -91,10 +97,18 @@
     <ClInclude Include="..\..\base\Thread.h" />
     <ClInclude Include="..\..\base\Timestamp.h" />
     <ClInclude Include="..\..\base\Uncopyable.h" />
+    <ClInclude Include="..\Callbacks.h" />
+    <ClInclude Include="..\Channel.h" />
+    <ClInclude Include="..\EventLoop.h" />
+    <ClInclude Include="..\Poller.h" />
+    <ClInclude Include="..\Timer.h" />
+    <ClInclude Include="..\TimerId.h" />
+    <ClInclude Include="..\TimerQueue.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\base\baseTest\makefile" />
     <None Include="..\..\README.md" />
+    <None Include="..\mtnetTest\makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
