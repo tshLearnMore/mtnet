@@ -1,3 +1,6 @@
+/* 
+²âÊÔEventLoop¡¢Channel¡¢Poller¡¢timer¹¦ÄÜ
+*/
 #include "EventLoop.h"
 #include "Thread.h"
 #include <stdio.h>

@@ -1,10 +1,11 @@
-LIB_SRC =               \
-	../Channel.cc         \
-	../EventLoop.cc       \
-	../Poller.cc          \
-	../TimerQueue.cc
+LIB_SRC =                    \
+	../Channel.cc            \
+	../EventLoop.cc          \
+	../Poller.cc             \
+	../TimerQueue.cc         \
+	../EventLoopThread.cc    
 
-BINARIES = test1
+BINARIES = test1 test2
 
 all: $(BINARIES)
 
@@ -16,6 +17,7 @@ $(BINARIES):
 	g++ $(CXXFLAGS) -o $@ $(LIB_SRC) $(BASE_SRC) $(filter %.cc,$^) $(LDFLAGS)
 
 test1:    test1.cc
+test2:    test2.cc
 
 clean:
 	rm -f $(BINARIES) core

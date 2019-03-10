@@ -6,13 +6,14 @@
 
 #include <pthread.h>
 #include <errno.h>
+#include "Mutex.h"
 
 namespace mtnet
 {
 	class Condition : public Uncopyable
 	{
 	public:
-		explicit Condition(Mutex& mutex)
+		explicit Condition(MutexLock& mutex)
 			:mutex_(mutex)
 		{
 			pthread_cond_init(&pcond_, NULL);
@@ -36,7 +37,7 @@ namespace mtnet
 		}
 	protected:
 	private:
-		Mutex& mutex_;
+		MutexLock& mutex_;
 		pthread_cond_t pcond_;
 	};
 }
