@@ -84,16 +84,21 @@
     <ClCompile Include="..\..\base\Thread.cc" />
     <ClCompile Include="..\..\base\Timestamp.cc" />
     <ClCompile Include="..\Acceptor.cc" />
+    <ClCompile Include="..\Buffer.cc" />
     <ClCompile Include="..\Channel.cc" />
     <ClCompile Include="..\EventLoop.cc" />
     <ClCompile Include="..\EventLoopThread.cc" />
+    <ClCompile Include="..\EventLoopThreadPool.cc" />
     <ClCompile Include="..\InetAddress.cc" />
     <ClCompile Include="..\mtnetTest\test1.cc" />
     <ClCompile Include="..\mtnetTest\test2.cc" />
     <ClCompile Include="..\mtnetTest\test3.cc" />
+    <ClCompile Include="..\mtnetTest\test4.cc" />
     <ClCompile Include="..\Poller.cc" />
     <ClCompile Include="..\Socket.cc" />
     <ClCompile Include="..\SocketsOps.cc" />
+    <ClCompile Include="..\TcpConnection.cc" />
+    <ClCompile Include="..\TcpServer.cc" />
     <ClCompile Include="..\TimerQueue.cc" />
   </ItemGroup>
   <ItemGroup>
@@ -105,14 +110,18 @@
     <ClInclude Include="..\..\base\Timestamp.h" />
     <ClInclude Include="..\..\base\Uncopyable.h" />
     <ClInclude Include="..\Acceptor.h" />
+    <ClInclude Include="..\Buffer.h" />
     <ClInclude Include="..\Callbacks.h" />
     <ClInclude Include="..\Channel.h" />
     <ClInclude Include="..\EventLoop.h" />
     <ClInclude Include="..\EventLoopThread.h" />
+    <ClInclude Include="..\EventLoopThreadPool.h" />
     <ClInclude Include="..\InetAddress.h" />
     <ClInclude Include="..\Poller.h" />
     <ClInclude Include="..\Socket.h" />
     <ClInclude Include="..\SocketsOps.h" />
+    <ClInclude Include="..\TcpConnection.h" />
+    <ClInclude Include="..\TcpServer.h" />
     <ClInclude Include="..\Timer.h" />
     <ClInclude Include="..\TimerId.h" />
     <ClInclude Include="..\TimerQueue.h" />

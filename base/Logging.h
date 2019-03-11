@@ -40,5 +40,4 @@
 
 	void LOG_FATAL(const char* format, ...);
 
-
 #endif //MTNET_BASE_LOGGING_H

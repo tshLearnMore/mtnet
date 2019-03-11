@@ -42,19 +42,19 @@ mtnet：my Tcp Network library
 ##mtnet
 |名称|完成情况|内容|
 | :------ | :------ | :------|
-|01.EventLoop       |  Done   | 主事件循环 |
-|02.Channel         |  Done   | fd通道管理 |
-|03.Poller          |  Done   | ePoll封装 |
-|04.Timer           |  Done   | 单独启动线程运行EventLoop |
-|05.EventLoopThread |  Done   | server fd操作封装 |
-|06.Acceptor        |  none   | server fd操作封装 |
-|07.NetAddress      |  none   | 网络地址操作封装 |
-|08.Socket          |  none   | socket操作封装 |
-|09.TcpConnect      |  none   | connection过程封装 |
-|10.TCPServer       |  none   | server fd封装 |
-|11.TCPClient       |  none   | client fd封装 |
-|12.Buffer          |  none   | 应用层Buffer |
-|13.EventLoopThreadPool |none | 多线程EventLoop封装 |
+|01.EventLoop           |  Done   | 主事件循环 |
+|02.Channel             |  Done   | fd通道管理 |
+|03.Poller              |  Done   | ePoll封装 |
+|04.Timer               |  Done   | 单独启动线程运行EventLoop |
+|05.EventLoopThread     |  Done   | server fd操作封装 |
+|06.Acceptor            |  Done   | server fd操作封装 |
+|07.InetAddress         |  Done   | 网络地址操作封装 |
+|08.Socket              |  Done   | socket操作封装 |
+|09.TcpConnect          |  Done   | connection过程封装 |
+|10.TCPServer           |  Done   | server fd封装 |
+|11.TCPClient           |  Done   | client fd封装 |
+|12.Buffer              |  Done   | 应用层Buffer |
+|13.EventLoopThreadPool |Done | 多线程EventLoop封装 |
 
 
 

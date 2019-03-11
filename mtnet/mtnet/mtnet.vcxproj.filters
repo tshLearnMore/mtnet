@@ -87,6 +87,21 @@
     <ClCompile Include="..\mtnetTest\test3.cc">
       <Filter>mtnet\mtnetTest</Filter>
     </ClCompile>
+    <ClCompile Include="..\TcpConnection.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\TcpServer.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Buffer.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\mtnetTest\test4.cc">
+      <Filter>mtnet\mtnetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\EventLoopThreadPool.cc">
+      <Filter>mtnet</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\base\Thread.h">
@@ -144,6 +159,18 @@
       <Filter>mtnet</Filter>
     </ClInclude>
     <ClInclude Include="..\SocketsOps.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TcpConnection.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\TcpServer.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Buffer.h">
+      <Filter>mtnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\EventLoopThreadPool.h">
       <Filter>mtnet</Filter>
     </ClInclude>
   </ItemGroup>
