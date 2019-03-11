@@ -57,7 +57,9 @@ mtnet：my Tcp Network library
 |13.EventLoopThreadPool |Done | 多线程EventLoop封装 |
 
 
-
+##测试
+1.只完成功能性测试
+2.尚未完成压力测试（多连接10K）
 
 
 -----------
