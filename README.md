@@ -61,6 +61,24 @@ mtnet：my Tcp Network library
 1.只完成功能性测试
 2.尚未完成压力测试（多连接10K）
 
+##参考
+
+0.Richard    Unix网络编程
+1.游双       Linux高性能服务器编程
+2.陈硕       Linux多线程服务端编程：muduo
+3.陈皓       跟我一起写Makefile
+
+
+
+
+
+
+
+
+
+
+
+
 
 -----------
 
