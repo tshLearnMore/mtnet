@@ -29,6 +29,7 @@ mtnet：my Tcp Network library
 
 #TODO:
 ##base
+
 |名称|完成情况|内容|
 | :------ | :------ | :------|
 |01.Atomic         |    Done | 原子操作 |
@@ -40,6 +41,7 @@ mtnet：my Tcp Network library
 |07.Timestamp      |    Done | 时间戳操作封装 |
 
 ##mtnet
+
 |名称|完成情况|内容|
 | :------ | :------ | :------|
 |01.EventLoop           |  Done   | 主事件循环 |
@@ -64,8 +66,11 @@ mtnet：my Tcp Network library
 ##参考
 
 0.Richard    Unix网络编程
+
 1.游双       Linux高性能服务器编程
+
 2.陈硕       Linux多线程服务端编程：muduo
+
 3.陈皓       跟我一起写Makefile
 
 
